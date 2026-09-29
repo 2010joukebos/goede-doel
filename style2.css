@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(36, 173, 34);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.box {
+    width: 20%;
+    height: 2%;
+    background-color: rgba(178, 176, 176, 0.866);
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    border-radius: 10px
+}
+
+body {
+    font-family: Arial;
+    background: linear-gradient(45deg, #019715, #df59a9);
+    color: white;
+    padding: 50px;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 1500px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
