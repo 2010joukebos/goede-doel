@@ -162,3 +162,26 @@ body {
 button:hover {
     background-color: yellow;
 }
+
+
+.box2 {
+    width: 20%;
+    height: 2%;
+    background-color: rgba(178, 176, 176, 0.866);
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    border-radius: 10px
+}
+
+#donatie1 {
+    color: rgb(0, 0, 0);
+}
+
+#donatie1 {
+    text-decoration: none;
+}
+
+donatie1:visited {
+    color: black;
+}
