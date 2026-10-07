@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(91, 175, 89);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.box {
+    width: 20%;
+    height: 2%;
+    background-color: rgba(178, 176, 176, 0.866);
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    border-radius: 10px
+}
