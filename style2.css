@@ -36,3 +36,11 @@ body {
 button:hover {
   background-color: rgb(100, 255, 219);
 }
+
+.header_side {
+  background: linear-gradient(90deg, #f8f9f9 0%, #bff5f9 25%, #6af0ff 52.52%, #00b7fa 78.52%, #ff05b0 100%);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

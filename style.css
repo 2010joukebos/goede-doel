@@ -185,3 +185,11 @@ button:hover {
 donatie1:visited {
     color: black;
 }
+
+.header_side {
+  background: linear-gradient(90deg, #feffff 0%, #c0fffb 25%, #72faea 52.52%, #00f2ff 78.52%, #ff05b0 100%);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
