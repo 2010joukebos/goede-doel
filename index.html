@@ -18,8 +18,8 @@
         <div>
             <header class="header_side">
         <a href="index.html">home</a>
-        <a href="index3.html">donaties</a>
-        <a href="index2.html">Contacten</a>
+     <a href="#item6">donaties!</a>
+           <a href="#item8">Contacten.</a>
 
             <img src="pictures/dierBes.png" alt="een foto van de dierenbescherming">
         </div>
@@ -28,7 +28,8 @@
         <button><a href="#item3">Wat doet de dierenbescherming?</a></button>
         <button><a href="#item4">een verhaal binnen onze orginastie.</a></button>>
         <button><a href="#item5">reviews.</a></button>
-        <button><a href="#item6">donaties!</a></button>
+  
+       
         <button><a href="#item7">Wat maakt ons uniek</a></button>
     </header>
        
@@ -69,34 +70,46 @@
                 </p>
             </div>
 
-            <h1 id="item6">donaties</h1>
-            <div class="box">
-                <p>wilt u een donatie doen aan de dierenbescherming? dat kan! u kunt op deze website en thuis website
-                    aan ons een donatie geven!</p>
-
-            </div>
+  
             <br>
                <h1>contacten</h1>
     <div>
         <p class="box">De dierenbescherming helpt tegen dierenleed en noodhulp aan dieren verlenen. heeft u iets te
             melden? bel ons!</p>
     </div>
-    <div class="container">
-        <h2>oefen alvast hier!</h2>
 
         <!-- Dit is de box waarin getypt kan worden -->
-        <input type="text" id="mijnInput" placeholder="Typ hier je oefen! bericht...">
-
-        <a href="mailto:joukebos003@gmail.com.nl">Stuur ons een mail</a>
+       <form action="2010joukebos@gmail.com" method="post">
+            <fieldset id="item8">
+                <legend>persoonlijk gevens</legend>
+                <label for="name"></label>
+                <input type="name" name="username" placeholder="naam" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+                 <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>hoe dringend is het?</legend>
+                <input type="checkbox">
+            </fieldset>
+            <fieldset>
+            <input type="submit" value="verstuur">
+            </fieldset>
+        </form>
         <br>
         <div>
             <p class="box">Let op!!! stuurd u een mail zonder reden kunt u genegeerd worden! zorg er voor dat de melding
                 echt is of als u een dringende vraag heeft.</p>
         </div>
-        <button onclick="window.location.href='index.html'">
-            terug.
-        </button>
     <br>
+    <br>
+    <br>
+
+              <h1 id="item6">donaties</h1>
+            <div class="box">
+                <p>wilt u een donatie doen aan de dierenbescherming? dat kan! u kunt op deze website en thuis website
+                    aan ons een donatie geven!</p>
+
+            </div>
             <div>
                 <button id="button6" onclick="window.location.href='index3.html'">
                     €5
