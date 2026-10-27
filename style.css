@@ -193,3 +193,10 @@ donatie1:visited {
   justify-content: space-between;
   align-items: center;
 }
+
+#call_to_action{
+    color: darkgoldenrod;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
