@@ -75,7 +75,6 @@ body {
     line-height: 1.6;
 }
 
-
 /* Knoppen */
 
 .main_button {
@@ -180,6 +179,11 @@ body {
     line-height: 1.7;
 }
 
+#foto_hondje{
+     display: block;
+  margin: auto;
+  width: 15%;
+}
 
 /* Hoe kan ik helpen */
 
